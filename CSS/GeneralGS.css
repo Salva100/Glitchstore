@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+ 	font-family: RiVeRoI;
+  	src:url(../Fuentes/Fuente1.ttf);
+}
+
+
+/*---------------------------------------------------------------
+				HEADER ELEMENTS
+----------------------------------------------------------------*/
+#HTML{
+	background-color:#f15d58;	
+}
+
+/*--------------BOX "HEADER"--------------*/
+#HEADER{
+	height:auto;
+	width:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	display:block;
+	
+	z-index:3;
+}
+
+/*--------------ACCESO--------------*/
+#Acceso{
+	background:#F1F1F1;
+	width:100%;	
+	float:right;
+}
+
+#HEADER ul{
+	float:right;
+	font-size:17px;
+	font-family:RiVeRoI;
+}
+
+#HEADER ul.Header_Acceso a{
+	color:#7E3133;
+	text-decoration:none;
+}
+
+#HEADER ul.Header_Acceso li{	
+	display:inline;
+	padding: 17px 15px 17px 15px;
+	border-radius:10px;
+}
+
+#HEADER ul.Header_Acceso li:hover{
+	background-color:#FFFFFF;	
+}
+
+/*---------------------------------------------------------------
+				BODY ELEMENTS
+----------------------------------------------------------------*/
+
+#BODY{
+	position:relative;
+	top:8em;
+	width:100%;
+	height:40em;
+	left:0px;
+	display:block;
+}
+
+#ProductZone{
+	height:auto;	
+	width:45%;
+	margin-right:.5em;
+	background-color:#d64760;
+}
+
+p.shareNotes{
+	
+	width:100%;
+	height:100%;	
+		
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg);
+	-webkit-transform:rotate(7.8deg);
+		
+	background-image:url(../Imagenes/Logos/shareNote.png);
+	background-size:100%;
+	background-repeat:no-repeat;
+			
+	z-index:2;
+}
+
+/*--------------PRODUCTOS--------------*/
+
+#PostNote, #PostPhoto, #PostVideo, #PostInvite	{
+	width:32%;
+	height:12em;
+	text-align:center;
+	float:left;
+	margin:2px;
+	padding-right: 8px;
+	padding-left: 8px;
+	position:relative;
+	
+	
+	border:dashed;
+	border-color:#000000;
+}
+
+#PostNote{
+	background-color:#FFFF4F;
+	color:#CA283A;
+	z-index:2;
+}
+
+#PostNote:hover, #PostVideo:hover, #PostPhoto:hover{
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);  
+  z-index:5;
+  
+}
+
+#PostPhoto{
+	background-color:#6F75DF;
+}
+
+#PostVideo{
+	background-color:#EB3737;
+	color:#FFFFFF;
+	z-index:2;
+}
+
+#PostInvite{
+	background-color:#10D557;
+	color:#1E54C8;
+}
+
+#tFirma{
+	width:100%;
+	text-align:center;
+	font-family:RiVeRoIII;
+}
+
+#autor a{
+	text-decoration:none;
+	color:#575757;
+	float:right;
+}
+
+#autor a:hover{
+	color:#000000;
+}
+
+.textStyle{
+	font-family:RiVeRoIII;
+	background-color: transparent;
+	border-color: #44B0EC;
+	border-style: dotted;
+	width:25em;
+}
