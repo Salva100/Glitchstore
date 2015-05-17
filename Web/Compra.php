@@ -3,7 +3,7 @@
     include_once("../FuncionesPHP/bdaccess.php");    
     include_once("../FuncionesPHP/productos.php");*/
 
-    require_once("/Applications/XAMPP/xamppfiles/htdocs/Aptana Workspace/conekta-php/lib/Conekta.php");
+    require_once("../conekta-php/lib/Conekta.php");
     Conekta::setApiKey("key_yu7cz6iTH3dv3cqtxedaUA");
 
     try{
