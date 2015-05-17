@@ -2,7 +2,7 @@
 	include_once("bdconnect.php");
 	include_once("bdaccess.php");
 
-	function mostrarStatus()      { 
+	function mostrarProductos()      { 
     	   $pconexion = abrirConexion();
     	   seleccionarBaseDatos($pconexion);
     
