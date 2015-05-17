@@ -130,7 +130,7 @@
 </head>
 <body>
 <header>
-        <a href="index.html"> <img src="images/Logo.png" id="LogoPNG" height="100"></a>
+        <a href="index.php"> <img src="images/Logo.png" id="LogoPNG" height="100"></a>
         <br>  
 </header>
 <aside id="top">
@@ -140,7 +140,7 @@
           <input type="text" placeholder="Search ABC comp..." /><button type="submit">Search</button>
         </form>
 
-        <div id="action-bar"><a href="login.html">Acceder / Registrarse</a>
+        <div id="action-bar"><a href="login.php">Acceder / Registrarse</a>
         </div>
     </div>
 </aside>
@@ -154,7 +154,7 @@
     </tr>
     
     <tr>
-    	<td align="left" valign="top" class="description"><a href="main.html"><img src="images/thumb1.jpg" alt="Elegant evening Dress" class="left" /></a><p><a href="main.html">Audifonos Bose</a><br />Sumérjase en su música gracias al rendimiento acústico optimizado que ofrecen los auriculares de audio AE2. Reproducen un sonido más uniforme en toda la gama de frecuencias, con completos graves y claros agudos. Los auriculares AE2 están diseñados para que, tanto en casa como en el exterior, disfrute más escuchando sus fuentes de audio favoritas, incluyendo reproductores y ordenadores portátiles. </p>
+    	<td align="left" valign="top" class="description"><a href="main.php"><img src="images/thumb1.jpg" alt="Elegant evening Dress" class="left" /></a><p><a href="main.html">Audifonos Bose</a><br />Sumérjase en su música gracias al rendimiento acústico optimizado que ofrecen los auriculares de audio AE2. Reproducen un sonido más uniforme en toda la gama de frecuencias, con completos graves y claros agudos. Los auriculares AE2 están diseñados para que, tanto en casa como en el exterior, disfrute más escuchando sus fuentes de audio favoritas, incluyendo reproductores y ordenadores portátiles. </p>
         <a href="#">Remove</a></td>
         <td align="left" valign="top" class="options">
         	<dl>

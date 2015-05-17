@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -10,7 +10,7 @@
 <body>
 <header>
     <br>
-        <a href="index.html"> <img src="images/Logo.png" id="LogoPNG" height="100"></a>
+        <a href="index.php"> <img src="images/Logo.png" id="LogoPNG" height="100"></a>
         <br>        
 </header>
 
@@ -21,7 +21,7 @@
         	<input type="text" placeholder="Search ABC comp..." /><button type="submit">Search</button>
         </form>
 
-        <div id="action-bar"><a href="login.html">Acceder / Registrarse</a>
+        <div id="action-bar"><a href="login.php">Acceder / Registrarse</a>
         </div>
     </div>
 </aside>
@@ -46,19 +46,19 @@
     </header>
     <ul id="items">
         <li>
-            <a href="main.html"><img src="images/thumb.png" alt="Audifonos Bose 5-Bas"/></a>
-            <a href="main.html" class="title">Audifonos Bose 5-Bas</a>
+            <a href="main.php"><img src="images/thumb.png" alt="Audifonos Bose 5-Bas"/></a>
+            <a href="main.php" class="title">Audifonos Bose 5-Bas</a>
             <strong>Precio: $1000 <br>GlitchPoints: 50 <br></strong>
             
         </li>
         <li>
-            <a href="main.html"><img src="images/thumb1.png" alt="Audifonos Bose 7-Klas"/></a>
-            <a href="main.html" class="title">Audifonos Bose 7-Klas</a>
+            <a href="main.php"><img src="images/thumb1.png" alt="Audifonos Bose 7-Klas"/></a>
+            <a href="main.php" class="title">Audifonos Bose 7-Klas</a>
             <strong>Precio: $5000 <br>GlitchPoints: 120 <br></strong>
         </li>
         <li>
-            <a href="main.html"><img src="images/thumb2.png" alt="Audifonos Bose 1-AS3"/></a>
-            <a href="main.html" class="title">Audifonos Bose 1-AS3</a>
+            <a href="main.php"><img src="images/thumb2.png" alt="Audifonos Bose 1-AS3"/></a>
+            <a href="main.php" class="title">Audifonos Bose 1-AS3</a>
             <strong>Precio: $1249 <br>GlitchPoints: 70 <br></strong>
         </li>
     </ul>
@@ -84,16 +84,16 @@
     </header>
     <ul id="items">
         <li>
-            <a href="main.html"><img src="images/tienda1.png" alt="Game Planet"/></a>
-            <a href="main.html" class="title">Game Planet</a><img src="images/ver.png" height ="22px" width="22px">
+            <a href="main.php"><img src="images/tienda1.png" alt="Game Planet"/></a>
+            <a href="main.php" class="title">Game Planet</a><img src="images/ver.png" height ="22px" width="22px">
         </li>
         <li>
-            <a href="main.html"><img src="images/tienda2.png" alt="Liz Minelli"/></a>
-            <a href="main.html" class="title">Liz Minelli</a><img src="images/ver.png" height ="22px" width="22px">
+            <a href="main.php"><img src="images/tienda2.png" alt="Liz Minelli"/></a>
+            <a href="main.php" class="title">Liz Minelli</a><img src="images/ver.png" height ="22px" width="22px">
         </li>
         <li>
-            <a href="main.html"><img src="images/tienda3.png" alt="Price Shoes"/></a>
-            <a href="main.html" class="title">Longer title Elegant evening Dress</a><img src="images/ver.png" height ="22px" width="22px">
+            <a href="main.php"><img src="images/tienda3.png" alt="Price Shoes"/></a>
+            <a href="main.php" class="title">Longer title Elegant evening Dress</a><img src="images/ver.png" height ="22px" width="22px">
         </li>
     </ul>
 
@@ -114,23 +114,23 @@
     </header>
     <ul id="items">
         <li>
-            <a href="main.html"><img src="images/perfil1.png" alt="Salva100"/></a>
-            <a href="main.html" class="title">Salva100</a>
+            <a href="main.php"><img src="images/perfil1.png" alt="Salva100"/></a>
+            <a href="main.php" class="title">Salva100</a>
             <strong>Nivel de confianza: 8.8</strong>
         </li>
         <li>
-            <a href="main.html"><img src="images/perfil2.png" alt="ValeFCF"/></a>
-            <a href="main.html" class="title">ValeFCF</a>
+            <a href="main.php"><img src="images/perfil2.png" alt="ValeFCF"/></a>
+            <a href="main.php" class="title">ValeFCF</a>
             <strong>Nivel de confianza: 8.8</strong>
         </li>
         <li>
-            <a href="main.html"><img src="images/perfil3.png" alt="RK-Rivero"/></a>
-            <a href="main.html" class="title">Richard Velro</a>
+            <a href="main.php"><img src="images/perfil3.png" alt="RK-Rivero"/></a>
+            <a href="main.php" class="title">Richard Velro</a>
               <strong>Nivel de confianza: 8</strong>
         </li>
         <li>
-            <a href="main.html"><img src="images/perfil4.png" alt="sergioivan154"/></a>
-            <a href="main.html" class="title">sergioivan154</a>
+            <a href="main.php"><img src="images/perfil4.png" alt="sergioivan154"/></a>
+            <a href="main.php" class="title">sergioivan154</a>
               <strong>Nivel de confianza: 8</strong>
         </li>
     </ul>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -28,7 +28,7 @@
         	<input type="text" id="buscador" placeholder="¿Qué estás buscando?" /><button type="submit">Search</button>
         </form>
 
-        <div id="action-bar"><a href="login.html">Acceder / Registrarse</a> <!--//<a href="viewbasket.html">Your bag (0)</a></div>-->
+        <div id="action-bar"><a href="login.php">Acceder / Registrarse</a> <!--//<a href="viewbasket.html">Your bag (0)</a></div>-->
         </div>
 </aside>
 <article id="mainview">
