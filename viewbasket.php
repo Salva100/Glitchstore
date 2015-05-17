@@ -187,7 +187,7 @@
     
     <tr>
     	<td align="left" valign="top" class="description"><a href="main.html"><img src="images/thumb1.jpg" alt="Elegant evening Dress" class="left" /></a><p><a href="main.html">Audifonos Bose</a><br />Sumérjase en su música gracias al rendimiento acústico optimizado que ofrecen los auriculares de audio AE2. Reproducen un sonido más uniforme en toda la gama de frecuencias, con completos graves y claros agudos. Los auriculares AE2 están diseñados para que, tanto en casa como en el exterior, disfrute más escuchando sus fuentes de audio favoritas, incluyendo reproductores y ordenadores portátiles. </p>
-        <a href="#">Remove</a></td>
+        <a href="#">Eliminar</a></td>
         <td align="left" valign="top" class="options">
         	<dl>
                 <dt>ID del producto</dt>
@@ -241,18 +241,18 @@
                         <input type="text" size="4" data-conekta="card[exp_year]"/>
                       </div>
                       
-                      <button type="submit" class="continue">Pay securely now</button>
+                      <button type="submit" class="continue">Pago seguro</button>
 
                     </form>
 
                 </div>
 
 <div class="left">
-    <strong>Subtotal antes de comision</strong> <em>$1000</em><br />
-    <p>
-        
-    </p>
-    <strong>Your total</strong> <em>$1050</em>
+    <strong>Precio: </strong> <em>$1000</em><br />
+    
+    <strong>Bonificaciòn en GlitchPoints: </strong> <em>50 puntos</em> 
+    
+    <strong>Total de GlitchPoints</strong> <em>50 puntos</em>
 </div>
 
 
