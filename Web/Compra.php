@@ -5,23 +5,42 @@
 
     require_once("../conekta-php/lib/Conekta.php");
     Conekta::setApiKey("key_yu7cz6iTH3dv3cqtxedaUA");
+    Conekta::setLocale('es');
+
+    $precio = 50000;
+    $precioGanancia = $precio * .05;
+    $precioGananciaReal = $precioGanancia/2;
+    $precioLocatario = $precio - $precioGanancia;
+    $glitchPoints = $precioGananciaReal;// * 10;
+
+    echo "$precio<br>"; 
+    echo "$precioGanancia<br>";
+    echo "$precioGananciaReal<br>";
+    echo "$precioLocatario<br>";
+    echo "$glitchPoints<br>";  
 
     try{
-      $charge = Conekta_Charge::create(array(
-        "amount"=> 51000,
-        "currency"=> "MXN",
-        "description"=> "Pizza Delivery",
-        "reference_id"=> "orden_de_id_interno",
-        "card"=> $_POST['conektaTokenId'],
-     //"tok_a4Ff0dD2xYZZq82d9",
-        "details"=> array(
-          "email"=>"logan@x-men.org"
-          )
-      ));
-    }catch (Conekta_Error $e){
-      echo $e->getMessage();
-     //el pago no pudo ser procesado
-    }
+
+        $chargePoints = Conekta_Charge::create(array(
+          "amount"=> $glitchPoints,
+          "currency"=> "MXN",
+          "description"=> "Puntos ganados",
+          "reference_id"=> "GlitchPoints",
+          "card"=> $_POST['conektaTokenId'],
+       //"tok_a4Ff0dD2xYZZq82d9",
+          "details"=> array(
+            "email"=>"valefcfhc@gmail.com"
+            )
+        ));
+
+        echo $chargePoints->status;
+
+      }catch (Conekta_Error $e){
+        echo $e->getMessage();
+       //el pago no pudo ser procesado
+      }
+
+
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -30,8 +49,8 @@
 <head>
 <title>GS</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="../CSS/GeneralGS.css" rel="stylesheet" type="text/css"/>
-<!--<script type="text/javascript" src="JS/jquery.js" language="javascript"></script>
+<!-- <link href="../CSS/GeneralGS.css" rel="stylesheet" type="text/css"/> -->
+<!-- <script type="text/javascript" src="JS/jquery.js" language="javascript"></script>
 <script type="text/javascript" src="JS/inicio.js" language="javascript"></script>
 <script type="text/javascript" src="JS/mobys.js" language="javascript"></script> -->
 
@@ -75,15 +94,9 @@
   /* Muestra los errores en la forma */
 
     $form.find(".card-errors").text(response.message);
-
-    console.log("error1")
-
     $form.find("button").prop("disabled", false);
 
-    console.log("error2")
   };
-
-
 
 
   jQuery(function($) {
@@ -97,12 +110,8 @@
 
       $form.find("button").prop("disabled", true);
 
-      console.log("hoa1")
-
-
       Conekta.token.create($form, conektaSuccessResponseHandler, conektaErrorResponseHandler);
 
-      console.log("hoa2")
   /* Previene que la información de la forma sea enviada al servidor */
 
       return false;
@@ -137,11 +146,11 @@
 <!------------------------------------------------------------------------------------------------------
                                  BODY ELEMENTS
 ----------------------------------------------------------------------------------------------------- -->
-           <br><br><br>
+           <br>
         
                 <div id="ProductInfo">        
-                    <!-- <img src="Imagenes/Productos/1.png" alt="Smiley face" height="auto" width="250"> -->
-                    <br>
+                    <!-- <img src="Imagenes/Productos/1.png" alt="Smiley face" height="auto" width="250">
+                    <br> -->
                     Generales<br>
                     Precio<br>
                       <form action="" method="POST" id="card-form">
@@ -172,10 +181,8 @@
                         <span>/</span>
                         <input type="text" size="4" data-conekta="card[exp_year]"/>
                       </div>
-                      <button type="submit">Suscribirse ahora!</button>
+                      <button type="submit">Paga ahora!</button>
                     </form>
-
-                    Productos en venta...<br>
 
                 </div>
 
