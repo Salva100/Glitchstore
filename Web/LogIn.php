@@ -26,7 +26,7 @@
     
     <!--------------------------------------	ACCESO	------------------------------------------------------>
     	<div id="Acceso">
-                <input autofocus="autofocus" class="o-input" id="q" name="q" placeholder="Hi there! What are you looking for?" type="text">
+                <input autofocus="autofocus" id="buscador" placeholder="¿Qué estás buscando?" type="text">
 
         	<ul class="Header_Acceso">
             	   <li><a href="#">Login</a></li>  
@@ -43,8 +43,8 @@
    	<div id="ProductZone">        
         
             <div id="Productos">
-        	<h1 class="tagInicio">Últimos productos</h1>
-                <form action="*">
+        	<p><h1 class="tagInicio">Últimos productos</h1></p>
+                <p><form action="*">
                     <select name="preferencias">
                     <option name="popular">Más popular</option>    
                     <option value="menor">Menor precio</option>m                                                              
@@ -52,7 +52,7 @@
                     <option value="fecha">Fecha más reciente</option>
                     </select>
                 <input type="submit">
-                </form>
+                </form></p>
 
                     <br><br>
                         <table id="PostNote">
@@ -62,16 +62,16 @@
                             <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
                         </table>
                         <table id="PostNote">
-                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=3"> Game Rush </a><p><br><br>f - t</td>
+                        </table>
+                        <table id="PostNote">
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=1"> Game Rush </a><p><br><br>f - t</td>
                         </table>
                         <table id="PostNote">
                             <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
                         </table>
                         <table id="PostNote">
-                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
-                        </table>
-                        <table id="PostNote">
-                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=3"> Game Rush </a><p><br><br>f - t</td>
                         </table>
                     <br><br>
 
