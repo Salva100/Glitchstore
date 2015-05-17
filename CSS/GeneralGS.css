@@ -115,7 +115,7 @@
 	position:relative;
 	margin-left: .5em;	
 	
-	border:dashed;
+	border:solid;
 	border-radius: 13px;
 	border-color:#000000;
 }
