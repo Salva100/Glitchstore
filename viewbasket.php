@@ -209,29 +209,17 @@
                         <input type="text" size="4" data-conekta="card[exp_year]"/>
                       </div>
                       
-                      <button type="submit" class="continue">Pay securely now</button>
+                      <button type="submit" class="continue">Pagar de forma segura</button>
 
                     </form>
 
                 </div>
 
 <div class="left">
-    <strong>Subtotal antes de comision</strong> <em>$1000</em><br />
+    <strong>Precio:</strong> <em>$1000</em><br />
     <p>
-        
+       <strong>Bonificación en GlitchPoints:</strong> <em>50 puntos</em><br /> 
     </p>
-    <strong>Your total</strong> <em>$1050</em>
+    <strong>Total de GlitchPoints:</strong> <em>50 puntos</em>
 </div>
-
-
-</article>
-<footer>
-        <h1>It's about social,</h1><br>
-        <h1>It's about commerce!</h1>
-        <br>
-    <div class="wrapper">
-            &copy; GlitchStores Inc. <a href="#">Mapa del Sitio</a> <a href="#">Términos &amp; Condiciones</a> <a href="#">Empleo</a><a href="#">¿Quiénes somos?</a>
-        </div>
-</footer>
-</body>
 </html>
