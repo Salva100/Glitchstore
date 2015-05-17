@@ -1,7 +1,7 @@
 <?php 
-    include_once("FuncionesPHP/bdconnect.php");
-    include_once("FuncionesPHP/bdaccess.php");    
-    include_once("FuncionesPHP/productos.php");
+    include_once("../FuncionesPHP/bdconnect.php");
+    include_once("../FuncionesPHP/bdaccess.php");    
+    include_once("../FuncionesPHP/productos.php");
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -10,7 +10,7 @@
 <head>
 <title>GS</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="CSS/GeneralGS.css" rel="stylesheet" type="text/css"/>
+<link href="../CSS/GeneralGS.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="JS/jquery.js" language="javascript"></script>
 <script type="text/javascript" src="JS/inicio.js" language="javascript"></script>
 <script type="text/javascript" src="JS/mobys.js" language="javascript"></script>
@@ -38,7 +38,7 @@
 <!------------------------------------------------------------------------------------------------------
                                  BODY ELEMENTS
 ----------------------------------------------------------------------------------------------------- -->
-           <br><br><br> j
+           <br><br><br>
         
    	<div id="ProductZone">        
         
