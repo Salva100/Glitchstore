@@ -162,7 +162,7 @@
 </head>
 <body>
 <header>
-        <a href="index.html"> <img src="images/Logo.png" id="LogoPNG" height="100"></a>
+        <a href="index.php"> <img src="images/Logo.png" id="LogoPNG" height="100"></a>
         <br>  
 </header>
 <aside id="top">
