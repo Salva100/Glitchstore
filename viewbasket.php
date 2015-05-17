@@ -148,28 +148,27 @@
 
 <table width="100" border="1">
     <tr>
-        <th scope="col" class="description">Product</th>
-        <th scope="col" class="options">Options</th>
-        <th align="right" scope="col" class="price">Price</th>
+        <th scope="col" class="description">Producto</th>
+        <th scope="col" class="options">Opciones</th>
+        <th align="right" scope="col" class="price">Precio</th>
     </tr>
     
     <tr>
-    	<td align="left" valign="top" class="description"><a href="main.html"><img src="images/thumb1.jpg" alt="Elegant evening Dress" class="left" /></a><p><a href="main.html">Elegant evening Dress</a><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat ultricies fringilla. Suspendisse iaculis tristique leo, id adipiscing massa aliquet ut. Etiam adipiscing auctor enim nec tincidunt. </p>
+    	<td align="left" valign="top" class="description"><a href="main.html"><img src="images/thumb1.jpg" alt="Elegant evening Dress" class="left" /></a><p><a href="main.html">Audifonos Bose</a><br />Sumérjase en su música gracias al rendimiento acústico optimizado que ofrecen los auriculares de audio AE2. Reproducen un sonido más uniforme en toda la gama de frecuencias, con completos graves y claros agudos. Los auriculares AE2 están diseñados para que, tanto en casa como en el exterior, disfrute más escuchando sus fuentes de audio favoritas, incluyendo reproductores y ordenadores portátiles. </p>
         <a href="#">Remove</a></td>
         <td align="left" valign="top" class="options">
         	<dl>
-                <dt>Product ID</dt>
+                <dt>ID del producto</dt>
                 <dd>1936246</dd>
-                <dt>Colour:</dt>
-                <dd>Light blue</dd>
-                <dt>Size:</dt>
-                <dd>S</dd>
-                <dt>Quantity:</dt>
+                <dt>Color:</dt>
+                <dd>Negro</dd>
+             
+                <dt>Cantidad:</dt>
                 <dd>1</dd>
             </dl>
-            <button>Change details</button>
+            <button>Modificación</button>
         </td>
-        <td align="right" valign="top" class="price">&pound;249</td>
+        <td align="right" valign="top" class="price">$1000</td>
     </tr>
 </table>
 <img src="images/creditcards.gif" class="safe" />
@@ -217,14 +216,11 @@
                 </div>
 
 <div class="left">
-    <strong>Subtotal before Delivery Charges</strong> <em>&pound;398.00</em><br />
+    <strong>Subtotal antes de comision</strong> <em>$1000</em><br />
     <p>
-        <select>
-        	<option>Free delivery (3-5 days)</option>
-            <option>Next day delivery (£3.99)</option>
-        </select> <em>&pound;0.00</em>
+        
     </p>
-    <strong>Your total</strong> <em>&pound;398.00</em>
+    <strong>Your total</strong> <em>$1050</em>
 </div>
 
 
