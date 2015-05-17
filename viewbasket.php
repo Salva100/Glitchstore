@@ -7,7 +7,7 @@
     Conekta::setApiKey("key_yu7cz6iTH3dv3cqtxedaUA");
     Conekta::setLocale('es');
 
-    $precio = 50000;
+    $precio = 100000;
     $precioGanancia = $precio * .05;
     $precioGananciaReal = $precioGanancia/2;
     $precioLocatario = $precio - $precioGanancia;
@@ -23,19 +23,51 @@
 
     try{
 
-        $chargePoints = Conekta_Charge::create(array(
-          "amount"=> $glitchPoints,
-          "currency"=> "MXN",
-          "description"=> "Puntos ganados",
-          "reference_id"=> "GlitchPoints",
-          "card"=> $_POST['conektaTokenId'],
-       //"tok_a4Ff0dD2xYZZq82d9",
-          "details"=> array(
-            "email"=>"valefcfhc@gmail.com"
-            )
-        ));
 
-        echo $chargePoints->status;
+      $customer = Conekta_Customer::create(array(
+        "name"=> "Lews Therin",
+        "email"=> "lews.therin@gmail.com",
+        "phone"=> "55-5555-5555",
+        "cards"=> array($_POST['conektaTokenId'])
+      ));
+
+      //echo get_object_vars($customer);
+
+      $json= $customer -> cards[0];
+
+      $json= json_decode($json,true);
+
+      echo $json['id'];
+
+      $charge = Conekta_Charge::create(array(
+        "amount"=> $precioLocatario,
+        "currency"=> "MXN",
+        "description"=> "Audifonos Bose",
+        "card"=> $json['id']
+      ));
+
+      echo $charge -> status;
+
+
+      $charge1 = Conekta_Charge::create(array(
+        "amount"=> $precioGananciaReal,
+        "currency"=> "MXN",
+        "description"=> "GlitchStore",
+        "card"=> $json['id']
+      ));
+
+      echo $charge1 -> status;
+
+      $charge2 = Conekta_Charge::create(array(
+        "amount"=> $glitchPoints,
+        "currency"=> "MXN",
+        "description"=> "GlitchPoints-usuario-3487105",
+        "card"=> $json['id']
+      ));
+
+      echo $charge2 -> status;
+
+      
 
       }catch (Conekta_Error $e){
         echo $e->getMessage();
@@ -235,3 +267,5 @@
 </footer>
 </body>
 </html>
+
+
