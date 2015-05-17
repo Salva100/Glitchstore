@@ -26,7 +26,7 @@
     
     <!--------------------------------------	ACCESO	------------------------------------------------------>
     	<div id="Acceso">
-                <input type="text" name="txt_buscador" id="txt_buscador"/>
+                <input autofocus="autofocus" class="o-input" id="q" name="q" placeholder="Hi there! What are you looking for?" type="text">
 
         	<ul class="Header_Acceso">
             	   <li><a href="#">Login</a></li>  
@@ -55,16 +55,31 @@
                 </form>
 
                     <br><br>
-                    <?php          
-                        echo mostrarProductos();
-                    ?>
+                        <table id="PostNote">
+                            <td> <br>"Dark Souls 2"<br><p id="autor"> <a href="Desktop.php?cid_user=1"> Game Planet </a><p><br><br>f - t</td>
+                        </table>
+                        <table id="PostNote">
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
+                        </table>
+                        <table id="PostNote">
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
+                        </table>
+                        <table id="PostNote">
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
+                        </table>
+                        <table id="PostNote">
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
+                        </table>
+                        <table id="PostNote">
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
+                        </table>
                     <br><br>
+
             </div> 
 
             <br>
-            
+
             <div id="Tiendas">
-                <br><br><br><br><br><br><br><br>
                 <h1 class="tagInicio">Tiendas oficiales</h1>
                 <form action="*">
                     <select name="preferencias">
@@ -77,14 +92,19 @@
                 </form>
 
                     <br><br>
-                    <?php          
-                        echo mostrarProductos();
-                    ?>
+                        <table id="PostNote">
+                            <td> <br>"Dark Souls 2"<br><p id="autor"> <a href="Desktop.php?cid_user=1"> Game Planet </a><p><br><br>f - t</td>
+                        </table>
+                        <table id="PostNote">
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
+                        </table>
                     <br><br>
+
             </div>
 
+                <br>
+
             <div id="Usuarios">
-                <br><br><br><br><br><br><br><br>
                 <h1 class="tagInicio">Usuarios recientes</h1>
                 <form action="*">
                     <select name="preferencias">
@@ -97,15 +117,27 @@
                 </form>
 
                     <br><br>
-                    <?php          
-                        echo mostrarProductos();
-                    ?>
+                        <table id="PostNote">
+                            <td> <br>"Dark Souls 2"<br><p id="autor"> <a href="Desktop.php?cid_user=1"> Game Planet </a><p><br><br>f - t</td>
+                        </table>
+                        <table id="PostNote">
+                            <td> <br>"Bloodborne"<br><p id="autor"> <a href="Desktop.php?cid_user=2"> Game Rush </a><p><br><br>f - t</td>
+                        </table>
                     <br><br>
+
             </div>
 
-                <div id = "Footer">
+        </div>
 
-                </div>
+
+        <br><br>
+
+
+        <div id="footer">
+            ajshbcjhabsjh
+            <section id="copyright">(( Datos Copyright ))</section>
+            <section id="contacto">(( Datos de Contacto ))</section>
+            <section id="enlaces">(( MapaWeb, Política, etc. ))</section>
         </div>
             
 </body>
