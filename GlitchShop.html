@@ -3,20 +3,22 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="social commerce from Gamers to Gamers">
+    <meta name="author" content="DevWorms S.A. de C.V.">
     <title>GlitchShop - A shop for Gamers</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
     <!--    INICIA BARRA DE NAVEGACIÓN     -->
-        <nav class="navbar navbar-default no-margin">    
+        <nav class="navbar navbar-default no-margin" >
+
             <div class="navbar-header fixed-brand">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
                     <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
@@ -26,45 +28,85 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span></button></li>
-                </ul><br>
+                    <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> <span class="fa fa-bars" aria-hidden="true"></span></button></li>
+                </ul>
 
                 <div class="col-lg-6">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for...">
+                        <input type="text" class="form-control" placeholder="Ingresa tu búsqueda">
                         <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">Go!</button>
+                        <button class="btn btn-default" type="button">Buscar</button>
                         </span>
                     </div> 
-                </div>                
+                </div>
+
+                <div align="right">
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mAcceso">Ingresar</button>             
+                </div>   
             </div>
+
+            <!--    Modal Acceso   -->
+            <div id="mAcceso" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title" align="center">Ingresa o registrate</h4>
+                        </div>
+
+                        <div class="modal-body">
+                            <form method="post" action='' name="login_form">
+                                <p><input type="text" class="span3" name="eid" id="email" placeholder="Email"></p>
+                                 <p><input type="password" class="span3" name="passwd" placeholder="Password"></p>
+                                 <p><button type="submit" class="btn btn-primary">Ingresar</button>
+                                     <a href="#">¿Olvidaste tu password?</a>
+                                 </p>
+                            </form>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div> 
+
         </nav>
     <!--    TERMINA BARRA DE NAVEGACIÓN     -->
+
 
     <div id="wrapper">
         
         <!--    INICIA BARRA LATERAL IZQUIERDA     -->
             <div id="sidebar-wrapper">
                 <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
-                    <li class="active">
+                    <li>
                         <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-certificate fa-stack-1x "></i></span> Nuevos Productos </a>
-
-                        <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                            <li><a href="#">link1</a></li>
-                            <li><a href="#">link2</a></li>
-                        </ul>
                     </li>
 
                     <li>
                         <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-gamepad fa-stack-1x "></i></span> Consolas</a>
                         <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
-                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>Playstation 4</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>X-Box One</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>WiiU</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>Playstation 3</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>X-Box 360</a></li>
                         </ul>
                     </li>
 
-                    <li>
+                    <li >
                         <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-puzzle-piece fa-stack-1x "></i></span>Juegos</a>
+                        <ul class="nav-pills nav-stacked" style="list-style-type:none;">
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>Playstation 4</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>X-Box One</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>WiiU</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>Playstation 3</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>X-Box 360</a></li>
+                        </ul>
                     </li>
 
                     <li>
@@ -74,19 +116,44 @@
                     <li>
                         <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-futbol-o fa-stack-1x "></i></span>Accesorios</a>
                     </li>
+
+                    <li>
+                        <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-clone fa-stack-1x "></i></span>Tarjetas</a>
+                        <ul class="nav-pills nav-stacked" style="list-style-type:none;">
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>Yu Gi Oh!</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>Magic: The Gathering</a></li>
+                            <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>Mitos y Leyendas</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-diamond fa-stack-1x "></i></span>Coleccionables</a>
+                    </li>
+
+                    <li>
+                        <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-space-shuttle fa-stack-1x "></i></span>Figuras</a>
+                    </li>
                 </ul>
             </div>
         <!--    TERMINA BARRA DE NAVEGACIÓN IZQUIERDA    -->
 
         <!-- INICIA CONTENIDO DE LA PÁGINA -->
             <div id="page-content-wrapper">
-                <div class="container-fluid xyz">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h1>GLITCHSHOP</h1>by DevWorms.
+
+                <ul id="portfolio-grid" class="thumbnails row">
+                    <li class="span4 mix photo">
+                        <div class="thumbnail">
+                            <img src="images/Portfolio02.png" alt="project 2">
+                            <a href="https://www.facebook.com" class="show_hide more" rel="#slidingDiv1">
+                                <!--<i class="icon-plus"></i>--><3
+                            </a>
+                            <h3>Dark Souls 3</h3>
+                            <p>Vendo juego "Dark Souls 3" para PS4 en <br>perfectas condiciones.</p>
+                            <div class="mask"></div>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
+
             </div>
         <!-- TERMINA CONTENIDO DE LA PÁGINA -->
 
@@ -96,6 +163,10 @@
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/sidebar_menu.js"></script>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+    <script type="text/javascript" src="js/jquery.cslider.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 
 </body>
 
