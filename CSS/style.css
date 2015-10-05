@@ -2,7 +2,7 @@
 2.3 Thumbnails - Predefined bootstrap's thumbnail class.
 **********/
  .thumbnail {
-    width:100%;
+    width:90%;
     height:100%;
     padding:0;
     overflow: hidden;
@@ -12,21 +12,26 @@
     box-shadow:none;
     text-align:center;
     background: #191a1c;
+    margin-left: -40px;
 }
+.span4.mix.photo.resized    {
+    margin-right: -55px;
+}
+
 .thumbnail .more {
     display:block;
     z-index:4;
     position:absolute;
-    top:-100px;
+    top:-300px;
     left:50%;
     margin:0 auto;
-    margin-left:-41px;
-    width:80px;
+    margin-left:-110px;
+    width:220px;
     height:80px;
-    font-size:40px;
+    font-size:24px;
     color:#fff;
     text-decoration:none;
-    line-height: 70px;
+    line-height: 40px;
     text-align: center;
 }
 .thumbnail:hover .more {
@@ -70,3 +75,130 @@
     opacity: 0;
     display: none;
 }
+
+.form-control, .btn-default{
+    margin-top:10px;
+}
+
+.btn-lg {
+    margin-top:4px;
+    margin-right:18px;
+}
+
+.map-wrapper {
+    position:relative;
+    height:500px;
+}
+.map-canvas {
+    position:absolute;
+    margin-bottom:40px;
+    width:100%;
+    height:500px;
+    color: #29383F;
+    position:absolute;
+    left:0;
+    top:0;
+    right:0;
+}
+
+.subtLand   {
+    font-size: 44px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtLand.map  {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.subtLand.descr  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer  {
+    margin-top: 30px;
+    background-color: #FC2C56;
+    padding-top: 2px;
+}
+
+.subtInfo   {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: bold;
+}
+ 
+ .mapDivision   {
+    background-color: #609cec ;
+ } 
+
+ .description, .description2, .description3  {
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    text-align: center;
+ }
+
+.description    {
+    background-color: #39FD9D;
+}
+
+.description3   {
+    background-color: #F1B8FF;
+    padding-bottom: 10px;
+}
+
+.descrDiv   {
+    background-color: #fcd419;
+}
+
+ .price-table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price-column {
+    background-color:white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding-bottom:20px;
+    margin:0 auto;
+    text-align:center;
+}
+.price-column h3 {
+    background-color:#C62E2E;
+    text-transform:uppercase;
+    text-align: center;
+    color:#609CEC;
+    padding:20px 0px;
+    font-size: 36px;
+    margin-top:0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+.price-column .list{
+    list-style:none;
+    margin:20px 50px;
+}
+.price-column .list li{
+    font-weight:lighter;
+    color:#747C89;
+    font-size:20px;
+    border-bottom:1px solid #747C89;
+    padding:25px 0px;
+}
+.price-column .list li.price {
+    text-align: center;
+    font-size:31px;
+    background-color:white;
+    color:#747C89;
+    margin-top:25px;
+}
+
+ 
+    
