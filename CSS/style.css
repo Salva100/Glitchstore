@@ -200,5 +200,41 @@
     margin-top:25px;
 }
 
+
+
+/*
+ ------------------------------------   PRODUCTOS   -----------------------------
+*/
  
-    
+   .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+  #photoSlider  {
+    width: 100%;
+  }
+
+  .left.carousel-control, .right.carousel-control    {    
+    background-color: #12D1D7;
+  }
+
+.span3.descripcion  {
+    margin-left: 0px;
+    width:400px;
+}
+
+.span3.extraInfo    {
+    margin-left: 40px;
+    width:200px;
+    height: 30em;;
+    border:1px solid;
+    border-radius: 10px;
+    border-color: #CC52B4;
+    padding: 20px;
+}
+
+.toolmsg    {
+    color: #000;
+}

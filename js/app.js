@@ -96,3 +96,7 @@ function initializeMap() {
 
     infowindow.open(map, marker);
 }
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
