@@ -1,0 +1,36 @@
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    /* 1920x400 */
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.socialscore    {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.socialicons a  {
+    text-decoration: none;
+}
