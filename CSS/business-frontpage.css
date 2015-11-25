@@ -34,3 +34,8 @@
 .socialicons a  {
     text-decoration: none;
 }
+
+.note {
+    background-color: #F7FB3E;
+    padding: 15px;
+}

@@ -85,20 +85,35 @@
     margin-right:18px;
 }
 
-.map-wrapper {
+.map-wrapper, .map-wrapper2 {
     position:relative;
+}
+
+.map-wrapper    {
     height:500px;
 }
-.map-canvas {
+
+.map-wrapper2    {
+    height:300px;
+}
+
+.map-canvas, .map-canvas2 {
     position:absolute;
     margin-bottom:40px;
     width:100%;
-    height:500px;
     color: #29383F;
     position:absolute;
     left:0;
     top:0;
     right:0;
+}
+
+.map-canvas{
+    height:500px;    
+}
+
+.map-canvas2{
+    height:300px;  
 }
 
 .subtLand   {
